@@ -1,0 +1,19 @@
+.searchbar-container{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    
+    input {
+        border: 1px solid var(--border-color);
+        width: 281px;
+        height: 28px;
+        border-radius: 5px;
+        padding-left: 8px;
+    }
+
+    img {
+        position: absolute;
+        right: 6.25px;
+        top: 6px;
+    }
+}
